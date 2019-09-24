@@ -1,0 +1,27 @@
+
+ls          -> list directory contents
+ls -l       -> list directories and files with details
+ls -a		-> do not ignore entries starting with . (show all including hidden files and directories)
+ls -al 		-> list directories and files with details (show all including hidden files and directories)
+ls -d .*	-> list only hidden directories and files
+ls -d .*/	-> list only  hidden directories
+
+touch name.txt  -> creates a textfile with the given name
+-> creates and opens a textfile with the given name ->	gedit name.txt  -> using Text Editor
+														nano name.txt 	-> using nano text editor
+														vi name.txt 	-> using vi text editor
+														subl name.txt 	-> using sublime text editor
+
+w       -> provides interesiting user information
+who     -> displays the users and login details that are currently logged into the system
+who -H  -> displays the user and login details with headers
+who -b  -> shows the time that the system lastly rebooted
+who -q  -> displays the names of the users and the # of users
+whoami  -> displays the name of the current user
+
+TTY     -> TeleTYpewriter
+
+xterm -bg [color]   -> specifies the color to use for the background
+xterm -fg [color]   -> specifies the color to use for the foreground
+xterm -bd [color]   -> This  option  specifies  the  color  to  use  for  the  border of the window
+xterm -fa [pattern] -> This option sets the pattern for fonts  selected  from  the  FreeType  library

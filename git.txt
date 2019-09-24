@@ -1,0 +1,13 @@
+
+git config --global user.name  ""  -> add user name to the global configuration
+git config --global user.email ""  -> add user email to the global configuration
+git config --list				   -> list all configurations
+
+git init        -> Initialize an empty git repository
+
+cat .gitconfig  -> outputs the configuration file details (all the configurations are stored in .gitconfig file in the home directory)
+
+git clone URL	-> clones a git repository to a local repository
+
+git remove rm origin
+git remote add origin

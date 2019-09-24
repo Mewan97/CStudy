@@ -1,2 +1,2 @@
 # CStudy
-Text files with valuable Commands to Study
+Text files with valuable 'Commands to Study'

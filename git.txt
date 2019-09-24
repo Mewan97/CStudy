@@ -10,4 +10,4 @@ cat .gitconfig  -> outputs the configuration file details (all the configuration
 git clone URL	-> clones a git repository to a local repository
 
 git remove rm origin
-git remote add origin
+git remote add origin URL

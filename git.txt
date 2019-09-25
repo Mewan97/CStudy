@@ -2,7 +2,7 @@
 git config --global user.name  ""  	-> add user name to the global configuration
 git config --global user.email ""  	-> add user email to the global configuration
 git config --list				           	-> list all configurations
-git --version 					   	         -> displays details of the installed version of git
+git --version 					   	        -> displays details of the installed version of git
 
 git init        -> Initialize an empty git repository
 

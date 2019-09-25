@@ -2,15 +2,16 @@
 ls          -> list directory contents
 ls -l       -> list directories and files with details
 ls -a		-> do not ignore entries starting with . (show all including hidden files and directories)
-ls -al 		-> list directories and files with details (show all including hidden files and directories)
+ls -al		-> list directories and files with details (show all including hidden files and directories)
 ls -d .*	-> list only hidden directories and files
 ls -d .*/	-> list only  hidden directories
 
 touch name.txt  -> creates a textfile with the given name
 -> creates and opens a textfile with the given name ->	gedit name.txt  -> using Text Editor
 														nano name.txt 	-> using nano text editor
-														vi name.txt 	-> using vi text editor
+														vi name.txt 		-> using vi text editor
 														subl name.txt 	-> using sublime text editor
+														atom name.txt   -> using atom text editor
 
 w       -> provides interesiting user information
 who     -> displays the users and login details that are currently logged into the system
@@ -26,5 +27,5 @@ xterm -fg [color]   -> specifies the color to use for the foreground
 xterm -bd [color]   -> This  option  specifies  the  color  to  use  for  the  border of the window
 xterm -fa [pattern] -> This option sets the pattern for fonts  selected  from  the  FreeType  library
 
-rm -rf FILENAME     -> Deletes all files in a folder or directory 
-rm -i FILENAME      -> Gets the confirmation before removing each file 
+rm -rf FILENAME     -> Deletes all files in a folder or directory
+rm -i FILENAME      -> Gets the confirmation before removing each file
